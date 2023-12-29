@@ -8,10 +8,31 @@
     color: #434455;
     background-color: #FFFFFF;
 }
-a {text-decoration: none;}
+
+p, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+s
+a {text-decoration: none;
+   color: currentColor;}
 
 ul, ol {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
 }
 
 /*-----------Header-----------*/
@@ -19,6 +40,13 @@ ul, ol {
 .header {
     background: #FFFFFF;
     letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav {
+    display: flex;
 }
 
 .logo-blue {
@@ -29,6 +57,7 @@ ul, ol {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo {
@@ -39,6 +68,11 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-list-item-link {
@@ -56,6 +90,12 @@ ul, ol {
 
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address-list-item-link {
@@ -75,7 +115,15 @@ ul, ol {
 /*------------------------*/
 
 .hero {
-    background: #2E2F42;
+
+}
+
+.hero-container {
+    background-color: #2E2F42;
+    padding-top: 72px;
+    height: 600px;
+    padding: 120px 0;
+
 }
 
 .hero-title {
@@ -85,6 +133,11 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
+    height: 120px;
+    padding: 260px 472px 220px 472;
+    margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .hero-button {
@@ -96,11 +149,40 @@ ul, ol {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+}
+
+.advantages {
+padding: 120px 0;
+display: flex;   
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip:rect(0 0 0 0);
+    border: 0;
+    white-space: nowrap;
+    clip-path: 100%;
+}
+
+.advantages-title-list {
+    display: flex;
+    gap: 8px;
 }
 
 .advantages-name {
@@ -109,6 +191,8 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    width: 264px;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -116,11 +200,18 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
     color: #434455;
 }
 
 .team {
     background: #F4F4FD;
+}
+
+.team-title-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -130,12 +221,13 @@ ul, ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2E2F42;
-    background-color: #FFFFFF;
+    color: #2E2F42;;
 }
 
 .team-list-item {
     background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -154,10 +246,31 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+
+}
+
+.description {
+    padding: 32px 0;
+    text-align: center;
 }
 
 .portfolio {
     background: #FFFFFF;
+    padding: 120px 0;
+}
+
+.portfolio-description {
+    padding: 32px 0;
+    text-align: center;
+    height: 120px; 
+    text-align: left;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .portfolio-title {
@@ -189,6 +302,7 @@ ul, ol {
 
 .footer {
     background: #2E2F42;
+    padding: 120px 0;
 }
 
 .logo-web {
@@ -218,4 +332,5 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
 }
