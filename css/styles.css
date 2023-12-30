@@ -216,12 +216,13 @@ display: flex;
 
 .team {
     background: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title-list {
     display: flex;
     justify-content: space-between;
-    padding: 120px 0;
+    gap: 24px;
 }
 
 .team-title {
@@ -233,6 +234,7 @@ display: flex;
     text-align: center;
     color: #2E2F42;;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .team-list-item {
