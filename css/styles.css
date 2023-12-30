@@ -40,13 +40,12 @@ ul, ol {
 .header {
     background: #FFFFFF;
     letter-spacing: 0.03em;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .logo-blue {
@@ -73,6 +72,7 @@ ul, ol {
 .nav-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-list-item-link {
@@ -96,6 +96,7 @@ ul, ol {
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-list-item-link {
