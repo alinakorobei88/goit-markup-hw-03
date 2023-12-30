@@ -86,6 +86,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    text-transform: uppercase;
 }
 
 .nav-list-item-link:hover,
@@ -111,6 +112,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-transform: uppercase;
+    padding: 24px 0;
 }
 
 .address-list-item-link:hover,
@@ -318,7 +321,7 @@ display: flex;
 
 .portfolio-cards {
     border: 1px solid #e7e9fc;
-    gap: 24px;
+    column-gap: 24px;
     margin-bottom: 48px;
 }
 
