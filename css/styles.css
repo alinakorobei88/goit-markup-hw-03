@@ -156,6 +156,9 @@ ul, ol {
     gap: 10px;
     display: block;
     margin: 0 auto;
+    border: none;
+    height: 56px;
+    min-width: 169px;
 
 }
 
