@@ -301,7 +301,7 @@ display: flex;
 .portfolio-list-item {
     padding-bottom: 32px;
     gap: 8px;
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
 }
 
