@@ -124,15 +124,15 @@ img {
 /*------------------------*/
 
 .hero {
-
+    padding: 188px 0;
+    background-color: #2E2F42;
 }
 
 .hero-container {
-    background-color: #2E2F42;
+
     padding-top: 72px;
     height: 600px;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 
 }
 
