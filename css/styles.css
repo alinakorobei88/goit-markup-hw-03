@@ -275,6 +275,7 @@ display: flex;
 .portfolio {
     background: #FFFFFF;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .portfolio-container {
@@ -313,7 +314,6 @@ display: flex;
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .portfolio-name {
